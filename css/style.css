@@ -1,0 +1,157 @@
+body,textarea{
+    margin: 0;
+    padding: 0;
+    font-family:'GFS Didot';
+}
+
+.container{
+    width: 100%;
+    background-color: #000;
+    height:80px ;
+    padding: 0 2em;
+   
+}
+
+
+nav{
+    position: relative;
+}
+
+
+
+.main-banner{
+    background-image:url(./../img/modelovogue.jpg);
+    background-size:cover ;
+    padding: 10em 0;
+    background-position: center;
+    text-align: center;
+}
+
+/* 
+.main-banner p{ */
+    /* font-size: 32px;
+} */
+.main-banner h1{
+color: #fff;
+text-align: center;
+font-size: 60px;
+font-style: normal;
+line-height:normal ;
+}
+
+.container .nome-logo {
+ 
+color: var(--cinza, hsl(0, 0%, 86%));
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+margin-top: 13px;
+
+
+
+}
+
+nav{
+    position: relative;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.navegacao{
+    margin-right: 80px;
+   margin-top: 3px;
+    height: 80px;
+   line-height: 80px;
+  
+
+}
+.navegacao li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navegacao a {
+    text-decoration:none ;
+    color: #fff;
+    font-family: 'GFS Didot';
+}
+
+
+body {
+    background-color: #DBDBDB;
+    overflow-x: hidden;
+}
+
+.til-main{
+color: #701B16;
+text-align: center;
+font-size: 22px;
+}
+
+.text-main{
+line-height: 1.5;
+}
+.main{
+    width: 50%;
+    margin: 0 auto;
+}
+
+hr{
+    color: #000;
+    height:  2px;
+}
+.img-main{
+    filter: saturate(0%);
+    margin-left: 190px;
+    
+}
+
+.img-main img{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.644) 0px 2.25px 10.5px;
+    margin: 20px 0px 20px 0px;
+}
+.footer-bg{
+background-color: #000;
+display: flex;
+margin: 0 auto;
+}
+.text-footer{
+color: #DBDBDB;
+margin-left: 41%;
+}
+
+.link-vogue {
+    position: static;
+    margin-top: 17.5px;
+    margin-left: 3px;
+}
+
+.link-vogue a {
+    color: #701B16;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 600;
+}
+
+.redes-sociais{
+    filter: invert(100%);
+    position: static;
+    margin-left: 770px;
+    margin-top: 10px;
+}
+
+.redes-sociais img {
+    width:30px ;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 5) 0px 0px 10.5px;
+    border-radius: 15px;
+}
